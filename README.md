@@ -28,5 +28,9 @@ Ahora Zombie puede saltar pulsando Spacebar.
 
 ![Gif6](https://user-images.githubusercontent.com/114673717/201061185-cbd8caa5-9e1b-4c4b-bb62-065154556115.gif)
 
+Activar la animación de muerte de Zombie al colisionar con Goblin
+
+![gif7](https://user-images.githubusercontent.com/114673717/201068475-3231c1f2-6779-49cb-8536-7ab1e785204f.gif)
+
 
 
