@@ -19,3 +19,9 @@ Ambos tienen físicas.
 Zombie tiene 10 veces más masa y Goblin es isTrigger
 
 ![Gif4](https://user-images.githubusercontent.com/114673717/200942597-dcfabaea-8580-4bf0-8de3-c6521120ebe0.gif)
+
+Añadimos un script para mover a Zombie, y un Flip() para girar al personaje en función de la dirección en la que se mueva.
+
+![Gif5](https://user-images.githubusercontent.com/114673717/201056749-ba111817-2c3a-4f8c-8fe2-d8d14041e027.gif)
+
+
