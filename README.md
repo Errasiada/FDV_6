@@ -24,4 +24,9 @@ Añadimos un script para mover a Zombie, y un Flip() para girar al personaje en 
 
 ![Gif5](https://user-images.githubusercontent.com/114673717/201056749-ba111817-2c3a-4f8c-8fe2-d8d14041e027.gif)
 
+Ahora Zombie puede saltar pulsando Spacebar.
+
+![Gif6](https://user-images.githubusercontent.com/114673717/201061185-cbd8caa5-9e1b-4c4b-bb62-065154556115.gif)
+
+
 
