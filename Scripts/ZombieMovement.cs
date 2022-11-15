@@ -10,7 +10,9 @@ public class ZombieMovement : MonoBehaviour
     public float jumpSpeed = 12f;
     public bool facingRight = true;
     public Animator anim;
-    [SerializeField] private Rigidbody2D rb;
+    public Rigidbody rb;
+    private SpriteRenderer _spriteRenderer;
+    
     
     private void Start()
     {
@@ -31,12 +33,13 @@ public class ZombieMovement : MonoBehaviour
     }
     private void Flip()
     {
-        if (facingRight && horizontal < 0f || !facingRight && horizontal > 0f)
+        if (Input.GetAxisRaw("Horizontal") > 0)
         {
-            facingRight = !facingRight;
-            Vector3 localScale = transform.localScale;
-            localScale.x *= -1f;
-            transform.localScale = localScale;
+            _spriteRenderer.flipX = false;
+        }
+        if(Input.GetAxisRaw("Horizontal") < 0)
+        {
+            _spriteRenderer.flipX = true;
         }
     }
 
